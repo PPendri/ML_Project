@@ -34,7 +34,7 @@ function numberGuess() {
     let diffx = x - avgx;
     let diffy = y - avgx;
 
-    if (diffy) = 0 {
+    if (diffy = 0) {
       diffy += 1
     }
 
