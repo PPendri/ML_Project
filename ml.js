@@ -55,12 +55,12 @@ function numberGuess() {
 function printText() {
 
   if (finalweight > zerodecider) {
-    var elem = document.getElementById('zero');
+    document.write("<h1>Computer guess: 0</h1>")
 
   }
 
   if (finalweight <= zerodecider) {
-    var elem = document.getElementById('one');
+    document.write("<h1>Computer guess: 1</h1>")
   
   }
 
