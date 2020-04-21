@@ -86,6 +86,7 @@ function draw() {
 
   if (data.length > 1) {
     numberGuess();
+    printText();
 
   }
 }
