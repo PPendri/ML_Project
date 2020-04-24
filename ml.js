@@ -55,12 +55,12 @@ function numberGuess() {
 function printText() {
 
   if (finalweight > zerodecider) {
-    $(“#results”).html(“This is a zero”);
+    $("#results").html("This is a zero");
 
   }
 
   if (finalweight <= zerodecider) {
-    $(“#results”).html(“This is a one”);
+    $("#results").html("This is a one");
   
   }
 
