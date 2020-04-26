@@ -47,7 +47,7 @@ function numberGuess() {
 
     zerodecider = 0.2;
 
-
+    $("#results").html("This is a zero");
   }
 
 }
